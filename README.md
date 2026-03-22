@@ -1,0 +1,3 @@
+Software used: Keil for embedded C programming and debugging
+Hardware used: ARM Cortex-M4F (MSP432E401Y) microcontroller
+Tools used: Analog Discovery Kit (AD3) as a waveform generator and oscilloscope
