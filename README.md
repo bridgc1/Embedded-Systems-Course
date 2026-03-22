@@ -1,3 +1,4 @@
 - Software used: Keil for embedded C programming and debugging
 - Hardware used: ARM Cortex-M4F (MSP432E401Y) microcontroller
 - Tools used: Analog Discovery Kit (AD3) as a waveform generator and oscilloscope
+- Peripherals: stepper motors, ULN driver board, time-of-flight (ToF) sensors, push buttons, keypads, external and on-board LEDs
