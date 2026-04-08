@@ -2,3 +2,5 @@
 - Hardware used: ARM Cortex-M4F (MSP432E401Y) microcontroller
 - Tools used: Analog Discovery Kit (AD3) as a waveform generator and oscilloscope
 - Peripherals: stepper motors, ULN driver board, time-of-flight (ToF) sensors, push buttons, keypads, external and on-board LEDs
+
+- Final project (Deliverable2): To create a 3D spatial mapping device to graphically reconstruct the environment using a time-of-flight (ToF) sensor for distance measurements and a stepper motor to orient the ToF around the yz-plane. Data from the ToF is sent to the MSP432 MCU via I2C communication. A push button is used to start and stop the data acquisition process (polling method) and flashing LEDs are implemented to indicate successful measurement and transmission. Trigonometry is applied to calculate the yz-coordinates for a measured distance and transmitted via UART to a MATLAB program for scanning and 3D graphical visualization. The bus speed is configured to run at 26 MHz by modifying the PLL clock parameters. The final project report is visible in Deliverable2 --> SpatialMappingSystem_FinalReport
